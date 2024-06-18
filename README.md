@@ -30,30 +30,70 @@ This project defines a `Car` class with properties such as brand, model, year of
    dart car_project.dart
    ```
 
-## Example Output 📝
+## Example Mian Function:pencil2:
 
 ```dart
-void main() {
-  // Create car instances
-  Car bmw = Car(brand: 'BMW', model: 'X5', year: 2018);
-  Car honda = Car(brand: 'Honda', model: 'Civic', year: 2020);
+void main(){
 
-  // Simulate driving
-  bmw.drive(1500.5);
-  honda.drive(1200.75);
+// Created Car 1 object//
+  Car bmw = Car(brand: 'BMW', model: 'BMW X', year: 1916);
+  print('Brand Name : ${bmw.getBrand()}');
+  print('Model Name : ${bmw.getModel()}');
+  print('${bmw.getModel()} has been manufactured on ${bmw.getYear()}');
+  bmw.drive(1500.540);
+  print('${bmw.getModel()} has been driven ${bmw.getMilesDriven()} kilometers');
+  print('Age : ${bmw.getAge()} years');
 
-  // Display car details
-  print('Brand: ${bmw.getBrand()}');
-  print('Model: ${bmw.getModel()}');
-  print('Year: ${bmw.getYear()}');
-  print('Miles driven: ${bmw.getMilesDriven()} km');
-  print('Age: ${bmw.getAge()} years');
+// Created Car 2 object//
+  Car hyundai = Car(brand: 'hyundai', model: 'hyundai civic', year: 1972);
+  print('Brand Name : ${hyundai.getBrand()}');
+  print('Model Name : ${hyundai.getModel()}');
+  print('${hyundai.getModel()} has been manufactured on ${hyundai.getYear()}');
+  hyundai.drive(1200.50);
+  print('${hyundai.getModel()} has been driven ${hyundai.getMilesDriven()} kilometers');
+  print('Age : ${hyundai.getAge()} years');
 
-  // Repeat for other cars...
+// Created Car 2 object//
+  Car ferrari = Car(brand: 'Ferrari', model: 'Ferrari Roma', year: 2020);
+  print('Brand Name : ${ferrari.getBrand()}');
+  print('Model Name : ${ferrari.getModel()}');
+  print("${ferrari.getModel()} has been manufactured on ${ferrari.year}");
+  ferrari.drive(1000.75);
+  print('${ferrari.getModel()} has been driven on ${ferrari.getMilesDriven()} kilometers');
+  print('Age : ${ferrari.getAge()} years');
 
-  // Display total number of Car objects created
-  print('\nTotal cars created: ${Car.numberOfCars}');
-}
+
+
+  print('\nNumber of object created : ${Car.numberOfCars}');
+
+}```
+
+## Example Mian Function 📝
+```
+"C:/Program Files/Dart/dart-sdk/bin/dart.exe" --enable-asserts --no-serve-devtools "E:\Rahib\Flutter Batch 7\assignme-1\bin\main.dart"
+
+Brand Name : BMW
+Model Name : BMW X
+BMW X has been manufactured on 1916
+BMW X has been driven 1500.54 kilometers
+Age : 108 years
+
+Brand Name : hyundai
+Model Name : hyundai civic
+hyundai civic has been manufactured on 1972
+hyundai civic has been driven 1200.5 kilometers
+Age : 52 years
+
+Brand Name : Ferrari
+Model Name : Ferrari Roma
+Ferrari Roma has been manufactured on 2020
+Ferrari Roma has been driven on 1000.75 kilometers
+Age : 4 years
+
+Number of Car objects has been created : 3
+
+Process finished with exit code 0
+
 ```
 
 ## Contributing 🤝
