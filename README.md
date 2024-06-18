@@ -17,7 +17,7 @@ This project defines a `Car` class with properties such as brand, model, year of
 - **Information Retrieval**: Getters to retrieve detailed car information.
 - **Age Calculation**: Computes the car's age dynamically based on the current year.
 
-## Usage 🛠️
+## Usage ⚡️
 
 1. Clone the repository:
    ```bash
@@ -30,7 +30,7 @@ This project defines a `Car` class with properties such as brand, model, year of
    dart car_project.dart
    ```
 
-## Example Mian Function:pencil2:
+## Example Mian Function🛠️
 
 ```dart
 void main(){
@@ -66,11 +66,12 @@ void main(){
 
   print('\nNumber of object created : ${Car.numberOfCars}');
 
-}```
+}
+```
 
 
 
-## Example Mian Function 📝
+## Example Of Output 📝
 ```bash
 "C:/Program Files/Dart/dart-sdk/bin/dart.exe" --enable-asserts --no-serve-devtools "E:\Rahib\Flutter Batch 7\assignme-1\bin\main.dart"
 
