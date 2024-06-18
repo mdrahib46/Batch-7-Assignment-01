@@ -68,8 +68,10 @@ void main(){
 
 }```
 
+
+
 ## Example Mian Function 📝
-```
+```bash
 "C:/Program Files/Dart/dart-sdk/bin/dart.exe" --enable-asserts --no-serve-devtools "E:\Rahib\Flutter Batch 7\assignme-1\bin\main.dart"
 
 Brand Name : BMW
